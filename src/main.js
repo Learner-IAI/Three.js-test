@@ -5,12 +5,6 @@
 /* CSS styles import */
 import './styles.css';
 
-/* Shaders code import */
-/*
-import vertShader from './main.vert';
-import fragShader from './main.frag';
-*/
-
 /* Three.js library import */
 import * as THREE from 'three';
 /* Orbit controls import */
