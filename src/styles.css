@@ -1,0 +1,19 @@
+/***
+ * Main elements styles
+ ***/
+
+body {
+  background-color: black;
+  font-family: consolas;
+  color: yellow;
+  overflow: hidden;
+}
+
+#canvas {
+  border: none;
+}
+
+#header {
+  margin: auto;
+  color: orange;
+}
