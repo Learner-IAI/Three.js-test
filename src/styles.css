@@ -17,6 +17,10 @@ body {
  * Some divs' styles
  ***/
 
+#main {
+  width: 700px;
+}
+
 #info {
   position: absolete;
   width: 100%;
@@ -41,5 +45,8 @@ body {
 
 #header {
   margin: auto;
-  color: orange;
+}
+
+#date {
+  color: yellow;
 }
