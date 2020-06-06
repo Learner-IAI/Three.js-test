@@ -10,6 +10,12 @@ import * as THREE from 'three';
 /* Orbit controls import */
 import { OrbitControls } from 'three-orbitcontrols/OrbitControls.js';
 
+/* Git last commit hash import */
+import hash from '../hash.txt';
+
+/* Webpack build date import */
+import date from '../version.txt';
+
 /* Main drawing context representation class */
 class Drawer {
   constructor (canvas) {
@@ -117,3 +123,6 @@ function threejsStart () {
 
 /* Add event handle for dynamically updating objects */
 document.addEventListener('DOMContentLoaded', threejsStart);
+
+document.getElementById('hash').innerHTML = 'Last git commit hash: ' + hash;
+document.getElementById('date').innerHTML = 'Wabpack build date: ' + JSON.parse(date).date;

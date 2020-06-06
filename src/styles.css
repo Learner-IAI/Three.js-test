@@ -9,6 +9,32 @@ body {
   overflow: hidden;
 }
 
+.orange {
+  color: orange;
+}
+
+/***
+ * Some divs' styles
+ ***/
+
+#info {
+  position: absolete;
+  width: 100%;
+  left: 730px;
+  top: 15px;
+}
+
+#github {
+  position: absolute;
+  width: 100%;
+  left: 730px;
+  top: 50px;
+}
+
+/***
+ * Other styles
+ ***/
+
 #canvas {
   border: none;
 }
