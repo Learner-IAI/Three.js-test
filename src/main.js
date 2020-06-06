@@ -125,4 +125,4 @@ function threejsStart () {
 document.addEventListener('DOMContentLoaded', threejsStart);
 
 document.getElementById('hash').innerHTML = 'Last git commit hash: ' + hash;
-document.getElementById('date').innerHTML = 'Wabpack build date: ' + JSON.parse(date).date;
+document.getElementById('date').innerHTML = JSON.parse(date).date;
