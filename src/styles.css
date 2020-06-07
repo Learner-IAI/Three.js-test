@@ -21,13 +21,6 @@ body {
   width: 700px;
 }
 
-#info {
-  position: absolete;
-  width: 100%;
-  left: 730px;
-  top: 15px;
-}
-
 #github {
   position: absolute;
   width: 100%;
